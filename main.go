@@ -64,7 +64,7 @@ func main() {
 	})
 
 	// inicia o servidor
-	err := http.ListenAndServe(":8080", nil)
+	err := http.ListenAndServe(":8081", nil)
 	if err != nil {
 		log.Fatal("Erro ao iniciar servidor: ", err)
 	}
